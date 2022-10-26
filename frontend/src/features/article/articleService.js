@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'cd /api/articles/'
+const API_URL = '/api/articles/'
 
 // Create new article
 const createArticle = async (articleData, token) => {
