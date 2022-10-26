@@ -2,8 +2,6 @@ import Card from './Card'
 
 
 const Recommended = ({articles}) => {
-  // let [data,setData] = useState([]);
-  // setData(articles);
   return (
     <div className='recs section'>
         <div className="cat-bar">
