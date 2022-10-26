@@ -17,7 +17,7 @@ const Recommended = ({articles}) => {
                 <Card key={article._id} data={article}/>
                 )
                 )
-            ):(<></>)
+            ):(<><p>nothing to show</p></>)
         }
         </div>
 
