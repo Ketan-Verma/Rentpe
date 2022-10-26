@@ -11,13 +11,14 @@ const Recommended = ({articles}) => {
             <a to={"/home"}>see all  </a>
         </div>
         <div className="card-container">
-            {articles ? (
-                articles.map((article)=>
+            {articles.length>0 ?
+                (articles.map((article)=>
                 (
                 <Card key={article._id} data={article}/>
                 )
-                )
-            ):(<><p>nothing to show</p></>)
+                ))
+                :
+                (<></>)
         }
         </div>
 
