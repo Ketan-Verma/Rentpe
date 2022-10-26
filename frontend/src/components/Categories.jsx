@@ -18,7 +18,8 @@ const Categories = ({articles}) => {
         </div>
         <div className="card-container">
         {articles.length>0 ?
-                (articles.map((article)=>
+                (
+                    articles.map((article)=>
                 (
                 <Card key={article._id} data={article}/>
                 )
