@@ -82,7 +82,7 @@ const Home = () => {
     
       },[isError,message,dispatch,navigate])
 
-      if(isLoading||!articles)return <p>Hod Pratik nanga</p>
+      if(isLoading||!articles)return <p>Loading</p>
  
       return (
     <div className="home">

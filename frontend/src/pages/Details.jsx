@@ -44,7 +44,7 @@ useEffect(()=>{
   },[isError,message,dispatch,navigate])
   // console.log(articles)
 
-  if(isLoading ||!articles)return <h1>Pratik farji HOD hai</h1>
+  if(isLoading ||!articles)return <h1>Loading...</h1>
 
   return (
     <div>
